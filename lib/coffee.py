@@ -21,7 +21,6 @@ class Coffee:
             print("size must be Small, Medium, or Large")
 
     def tip(self):
-        # Note: uses a curly apostrophe (’) to match the exact string
-        # the test asserts against — a straight apostrophe (') will fail.
+        
         print("This coffee is great, here’s a tip!")
         self.price += 1
